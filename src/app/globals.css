@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-border: var(--border);
+
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+
+  --font-sans: var(--font-inter);
+
+  /* Kyfr visual lock theme variables */
+  --color-kyfr-black: #0B0B10;
+  --color-kyfr-elevated: #12121A;
+  --color-kyfr-green: #00FFA3;
+  --color-kyfr-pink: #FF0069;
+  --color-kyfr-purple: #6400D2;
+  --color-kyfr-orange: #FFA300;
+  --color-kyfr-calm: #F2F0F5;
+
+  --radius-kyfr-sm: 14px;
+  --radius-kyfr-md: 22px;
+  --radius-kyfr-lg: 32px;
+  --radius-kyfr-xl: 40px;
+  --radius-kyfr-2xl: 48px;
+
+  --shadow-kyfr: 0 20px 50px rgba(0,0,0,0.5);
+  --shadow-kyfr-xl: 0 40px 100px rgba(0,0,0,0.9);
+}
+
+:root {
+  --background: #fafafa;
+  --foreground: #09090b;
+
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+
+  --surface: #ffffff;
+  --surface-hover: #f4f4f5;
+  --border: #e4e4e7;
+
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Default to dark mode for the premium studio feel */
+.dark, :root {
+  --background: #0B0B10;
+  --foreground: #FFFFFF;
+
+  --primary: #FF0069; /* Neon pink accent for Confident Mode core */
+  --primary-foreground: #ffffff;
+
+  --surface: rgba(18, 18, 26, 0.4);
+  --surface-hover: rgba(28, 28, 38, 0.55);
+  --border: rgba(255, 255, 255, 0.08);
+
+  --success: #00FFA3; /* Neon green */
+  --warning: #FFA300; /* Warning orange */
+  --error: #FF0069; /* Electric pink */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html.dark, .dark body {
+  background:
+    radial-gradient(circle at 12% 15%, rgba(0, 255, 163, 0.14), transparent 45%),
+    radial-gradient(circle at 88% 18%, rgba(255, 0, 105, 0.12), transparent 45%),
+    radial-gradient(circle at 50% 85%, rgba(100, 0, 210, 0.16), transparent 55%),
+    #0B0B10;
+}
+
+/* Canonical Glass Classes from Kyfr Visual Lock */
+.glass {
+  background: rgba(18, 18, 28, 0.55); /* Frosted premium charcoal glass tint */
+  backdrop-filter: blur(28px) saturate(200%);
+  -webkit-backdrop-filter: blur(28px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.glass-elevated {
+  background: rgba(12, 12, 18, 0.88);
+  backdrop-filter: blur(36px) saturate(200%);
+  -webkit-backdrop-filter: blur(36px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 40px 100px rgba(0, 0, 0, 0.90),
+    0 12px 40px rgba(0, 0, 0, 0.50),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.glow-green {
+  box-shadow:
+    0 0 40px rgba(0, 255, 163, 0.30),
+    0 0 80px rgba(0, 255, 163, 0.12);
+}
+
+.glow-pink {
+  box-shadow:
+    0 0 40px rgba(255, 0, 105, 0.28),
+    0 0 80px rgba(255, 0, 105, 0.10);
+}
+
+.kyfr-button {
+  height: 56px;
+  padding: 0 24px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(24px);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  transition: all 320ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.kyfr-button:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 24px rgba(255, 0, 105, 0.2);
+  transform: translateY(-1px);
+}
+
+/* React Flow custom styling for dark mode */
+.react-flow__node {
+  border-radius: 8px;
+}
+.react-flow__handle {
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary);
+}
+.react-flow__edge-path {
+  stroke: var(--border);
+  stroke-width: 2;
+}

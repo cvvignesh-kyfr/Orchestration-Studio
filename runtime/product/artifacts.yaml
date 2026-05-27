@@ -1,0 +1,180 @@
+# Registered Output Artifacts & Lifecycles
+contract_type: artifacts_registry
+compiled_at: "2026-05-27T11:01:07.554Z"
+
+artifacts:
+  - id: spend_profile
+    name: Spend Profile
+    description: "User's spending habits"
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: budget_plan
+    name: Budget Plan
+    description: "User's budget allocation"
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: transaction_summary
+    name: Transaction Summary
+    description: Summarized banking transactions
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: onboarding_state
+    name: Onboarding State
+    description: Tracks onboarding progress
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: recommendation_plan
+    name: Recommendation Plan
+    description: List of personalized actions
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: financial_health_summary
+    name: Financial Health Summary
+    description: Overall holistic health
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: risk_assessment
+    name: Risk Assessment
+    description: Vulnerability and risk exposure
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: coaching_plan
+    name: Coaching Plan
+    description: Structured behavioral goals
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: user_preference_graph
+    name: User Preference Graph
+    description: Contextual affinity matrix
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: savings_projection
+    name: Savings Projection
+    description: Forward looking balances
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: financial_anxiety_detected
+    name: Financial Anxiety Detected
+    description: Detected stress spike while reviewing liabilities or unexpected debits.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: onboarding_excitement
+    name: Onboarding Excitement
+    description: User is progressing rapidly through consent and setup tasks.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: hesitation_detected
+    name: Hesitation Detected
+    description: User pauses repeatedly before committing to a recommendation or plan.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: trust_breakthrough
+    name: Trust Breakthrough
+    description: User demonstrates trust by sharing sensitive financial context.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: savings_milestone_achieved
+    name: Savings Milestone Achieved
+    description: User crossed a meaningful savings milestone against plan.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: overspending_alert
+    name: Overspending Alert
+    description: Spending velocity exceeded adaptive budget threshold for current cycle.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: confusion_detected
+    name: Confusion Detected
+    description: User is unable to map recommendations to concrete action.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: recommendation_resistance
+    name: Recommendation Resistance
+    description: User repeatedly rejects generated savings recommendations.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: high_confidence_detected
+    name: High Confidence Detected
+    description: "User is making decisive, low-friction financial choices."
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: goal_commitment_detected
+    name: Goal Commitment Detected
+    description: User explicitly commits to a savings or budget objective.
+    family: Moments Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: temporary
+  - id: onboarding_momentum
+    name: Onboarding Momentum
+    description: Net momentum score for onboarding completion consistency.
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: savings_momentum
+    name: Savings Momentum
+    description: Longitudinal indicator of savings behavior consistency.
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: trust_momentum
+    name: Trust Momentum
+    description: Composite trust signal across transparency and consistency touchpoints.
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: engagement_momentum
+    name: Engagement Momentum
+    description: Measures sustainable engagement quality, not just frequency.
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted
+  - id: goal_completion_momentum
+    name: Goal Completion Momentum
+    description: "Measures progress toward user-committed financial goals."
+    family: Momentum Artifacts
+    apiEndpoint: 
+    schemaContract: {}
+    lifecycleStatus: persisted

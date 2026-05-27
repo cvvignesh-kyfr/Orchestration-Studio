@@ -1,0 +1,215 @@
+# Active Product Journeys & Relational Strategies
+contract_type: product_journeys
+compiled_at: "2026-05-27T11:01:07.552Z"
+
+journeys:
+  - id: improve_savings_discipline
+    name: Improve Savings Discipline
+    category: Financial Intelligence
+    purpose: Help users convert spend awareness into repeatable savings behavior.
+    version: 1.0.0
+    status: production
+    allowedCapabilities:
+      - fetch_financial_data
+      - analyze_spending
+      - categorize_transactions
+      - generate_budget_plan
+      - generate_savings_recommendations
+      - summarize_financial_health
+    preferredBehaviors:
+      - focus on one actionable recommendation at a time
+      - tie advice to observed transaction patterns
+      - celebrate measurable progress
+    restrictedCapabilities:
+      - no autonomous money movement
+      - "no high-pressure upsell messaging"
+    artifactsCanCreate:
+      - transaction_summary
+      - spend_profile
+      - budget_plan
+      - recommendation_plan
+      - financial_health_summary
+    artifactsCanUpdate:
+      - savings_projection
+      - user_preference_graph
+    artifactImportance:
+      transaction_summary: primary
+      spend_profile: primary
+      budget_plan: primary
+      recommendation_plan: supporting
+      financial_health_summary: supporting
+      savings_projection: milestone
+      user_preference_graph: supporting
+    strategy_modifiers: {}
+  - id: spending_awareness
+    name: Spending Awareness
+    category: Mindfulness
+    purpose: Help users become more conscious of spending behavior.
+    version: 1.0.0
+    status: production
+    allowedCapabilities:
+      - spending_analysis
+      - subscription_detection
+      - spending_categorization
+      - trend_summaries
+    preferredBehaviors:
+      - prioritize reflection over pressure
+      - emphasize awareness first
+      - avoid guilt framing
+    restrictedCapabilities:
+      - avoid autonomous actions
+      - require user confirmation before alerts
+    artifactsCanCreate:
+      - monthly_spending_summary
+      - discretionary_spending_insights
+    artifactsCanUpdate:
+      - spending_trend_history
+      - financial_awareness_tracker
+    artifactImportance:
+      monthly_spending_summary: primary
+      discretionary_spending_insights: optional
+      spending_trend_history: supporting
+      financial_awareness_tracker: milestone
+    strategy_modifiers: {}
+  - id: budget_confidence
+    name: Budget Confidence
+    category: Coaching
+    purpose: Help users feel capable and confident managing budgets.
+    version: 1.0.0
+    status: production
+    allowedCapabilities:
+      - budgeting_assistance
+      - affordability_estimation
+      - savings_forecasting
+      - educational_explanations
+    preferredBehaviors:
+      - prioritize reassurance
+      - favor coaching over automation
+      - "step-by-step guidance"
+    restrictedCapabilities:
+      - avoid autonomous transfers
+      - require user confirmation for budget changes
+    artifactsCanCreate:
+      - starter_budget
+      - savings_plan
+      - budgeting_checklist
+    artifactsCanUpdate:
+      - budget_progress
+      - savings_milestones
+    artifactImportance:
+      starter_budget: primary
+      savings_plan: primary
+      budgeting_checklist: supporting
+      budget_progress: milestone
+      savings_milestones: milestone
+    strategy_modifiers: {}
+  - id: large_purchase_evaluation
+    name: Large Purchase Evaluation
+    category: Decision Support
+    purpose: "Help users make thoughtful high-value purchase decisions."
+    version: 1.1.0
+    status: production
+    allowedCapabilities:
+      - affordability_analysis
+      - financing_comparison
+      - tradeoff_explanation
+      - scenario_simulation
+    preferredBehaviors:
+      - structure tradeoff options
+      - slow communication pacing
+      - prioritize tradeoff clarity
+    restrictedCapabilities:
+      - avoid aggressive upsell recommendations
+      - require user confirmation before committing
+    artifactsCanCreate:
+      - purchase_comparison_report
+      - affordability_breakdown
+      - financing_evaluation
+    artifactsCanUpdate:
+      - decision_shortlist
+      - evaluation_notes
+    artifactImportance:
+      purchase_comparison_report: primary
+      affordability_breakdown: primary
+      financing_evaluation: optional
+      decision_shortlist: supporting
+      evaluation_notes: supporting
+    strategy_modifiers: {}
+  - id: uncertainty_to_confidence
+    name: Uncertainty to Confidence
+    category: Decision Support
+    purpose: Move users from uncertainty toward confident exploration and decision readiness.
+    version: 1.0.0
+    status: production
+    allowedCapabilities:
+      - educational_explanations
+      - simplify_terminology
+      - answer_questions
+    preferredBehaviors:
+      - prioritize educational explanations
+      - use proactive insights sparingly
+    restrictedCapabilities:
+      - avoid aggressive upsell recommendations
+    artifactsCanCreate:
+      - learning_plans
+      - decision_comparisons
+    artifactsCanUpdate:
+      - onboarding_checklist
+    artifactImportance:
+      learning_plans: primary
+      decision_comparisons: optional
+      onboarding_checklist: supporting
+    strategy_modifiers:
+      trustworthy: 0.25
+      conversational: 0.15
+  - id: hesitation_to_commitment
+    name: Hesitation to Commitment
+    category: Activation
+    purpose: Guide skeptical users toward high intent by providing verifiable social proof.
+    version: 1.0.0
+    status: production
+    allowedCapabilities:
+      - financing_comparison
+      - generate_recommendations
+      - prioritize_actions
+    preferredBehaviors:
+      - favor coaching over automation
+      - require user confirmation
+    restrictedCapabilities:
+      - avoid autonomous actions
+    artifactsCanCreate:
+      - action_plans
+      - recommendation_summaries
+    artifactsCanUpdate:
+      - goal_states
+    artifactImportance:
+      action_plans: primary
+      recommendation_summaries: primary
+      goal_states: milestone
+    strategy_modifiers:
+      expert: 0.3
+      friendly: 0.1
+  - id: passive_to_engaged
+    name: Passive to Engaged
+    category: Habit Formation
+    purpose: Shift user from passive consumption to deep conversational investment.
+    version: 1.0.0
+    status: production
+    allowedCapabilities:
+      - simulate_scenarios
+      - explain_concepts
+      - generate_learning_paths
+    preferredBehaviors:
+      - prioritize reflection over pressure
+    restrictedCapabilities:
+      - avoid autonomous actions
+    artifactsCanCreate:
+      - progress_trackers
+      - engagement_summaries
+    artifactsCanUpdate:
+      - milestone_histories
+    artifactImportance:
+      progress_trackers: primary
+      engagement_summaries: optional
+      milestone_histories: milestone
+    strategy_modifiers: {}

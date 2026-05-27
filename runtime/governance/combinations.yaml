@@ -1,0 +1,27 @@
+# Unsafe Emergent Combinations
+contract_type: illegal_combinations
+compiled_at: "2026-05-27T13:08:52.859Z"
+
+combinations:
+  - id: assert_transparency
+    name: Opaque Directional Advice
+    primitives:
+      - primitiveId: assertiveness
+        operator: greater_than
+        value: 0.7
+      - primitiveId: transparency
+        operator: less_than
+        value: 0.4
+    explanation: High directive pressure paired with opaque safety explanations leads to predatory advice patterns.
+    category: financial_safety
+  - id: pressure_nonjudgment
+    name: Judgmental Pressure Loop
+    primitives:
+      - primitiveId: accountability_pressure
+        operator: greater_than
+        value: 0.6
+      - primitiveId: non_judgment
+        operator: less_than
+        value: 0.6
+    explanation: "High accountability follow-ups paired with critical or judgmental response styles creates emotional distress."
+    category: emotional_harm

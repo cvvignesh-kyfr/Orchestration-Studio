@@ -1,0 +1,23 @@
+# Dynamic Behavioral Modifiers
+contract_type: modifiers
+compiled_at: "2026-05-19T12:17:25.819Z"
+
+modifiers:
+  style_supportive:
+    warmth: 0.3
+    humor: -0.2
+    seriousness: 0.2
+  style_analytical:
+    seriousness: 0.35
+    humor: -0.22
+    warmth: -0.15
+  bangalore_urban:
+    cultural_localization: 0.2
+    slang_density: 0.1
+  india_genz:
+    relatability: 0.2
+    authenticity: 0.15
+    companionness: 0.1
+  mode_financial_anxiety:
+    pacing: -0.2
+    clarity: 0.15

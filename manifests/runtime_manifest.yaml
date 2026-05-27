@@ -1,0 +1,14 @@
+# Master Runtime Configuration Manifest
+manifest_type: production_runtime
+compiled_at: "2026-05-27T13:08:52.860Z"
+compiler_version: "Antigravity Pipeline v1.0.0"
+
+governance_files:
+  - runtime/governance/prohibitions.yaml
+  - runtime/governance/safety_shields.yaml
+  - runtime/governance/combinations.yaml
+marketing_files:
+  - runtime/marketing/global_defaults.yaml
+  - runtime/marketing/segments.yaml
+product_files:
+  - runtime/product/domain_orchestration.yaml

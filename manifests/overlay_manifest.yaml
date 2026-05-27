@@ -1,0 +1,23 @@
+# Auditable Active Overlays Registry
+overlays_count: 5
+active_overlays:
+  - id: "style_supportive"
+    category: "style"
+    rules_count: 1
+    modifiers_count: 3
+  - id: "style_analytical"
+    category: "style"
+    rules_count: 1
+    modifiers_count: 3
+  - id: "bangalore_urban"
+    category: "regional"
+    rules_count: 1
+    modifiers_count: 2
+  - id: "india_genz"
+    category: "demographic"
+    rules_count: 1
+    modifiers_count: 3
+  - id: "mode_financial_anxiety"
+    category: "contextual"
+    rules_count: 1
+    modifiers_count: 2

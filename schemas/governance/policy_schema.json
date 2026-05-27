@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Safety Governance Cap Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "targetPrimitiveId": {
+      "type": "string"
+    },
+    "limitType": {
+      "type": "string",
+      "enum": [
+        "cap",
+        "floor"
+      ]
+    },
+    "thresholdValue": {
+      "type": "number"
+    },
+    "condition": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "targetPrimitiveId",
+    "limitType",
+    "thresholdValue",
+    "condition"
+  ]
+}

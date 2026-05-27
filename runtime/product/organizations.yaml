@@ -1,0 +1,54 @@
+# Organizational Ownership Boundaries
+contract_type: organizational_contracts
+compiled_at: "2026-05-27T11:01:07.554Z"
+
+organizations:
+  - id: org_marketing
+    name: Marketing Domain
+    description: Controls the brand persona, linguistic foundations, and behavioral primitives.
+    owned_families:
+      - Identity
+      - Voice
+      - Tone
+      - Style
+      - Emotional
+      - Trust
+      - Motivation
+      - Engagement
+      - Persuasion Preferences
+  - id: org_product
+    name: Product Domain
+    description: Owns behavioral strategies, user journey maps, and cognitive load mitigations.
+    owned_families:
+      - Journey States
+      - Cognitive States
+      - Emotional States
+      - Intent States
+      - Engagement States
+      - Readiness States
+      - Friction States
+      - Escalation States
+      - Workflow States
+  - id: org_governance
+    name: Governance Domain
+    description: Enforces legal restrictions, structural compliance caps, and safety overrides.
+    owned_families:
+      - Emotional Safety Constraints
+      - Persuasion Constraints
+      - Transparency Constraints
+      - Escalation Constraints
+      - Compliance Constraints
+      - Explainability Constraints
+  - id: org_engineering
+    name: Engineering Runtime Domain
+    description: Decides layout and resolution execution, telemetry tracking, and tool orchestration.
+    owned_families:
+      - Signal Resolution
+      - Context Resolution
+      - User State Resolution
+      - Primitive Resolution
+      - Strategy Resolution
+      - Tool Resolution
+      - Execution Resolution
+      - Explainability Resolution
+      - Observability Resolution

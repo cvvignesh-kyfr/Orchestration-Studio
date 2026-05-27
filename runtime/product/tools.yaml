@@ -1,0 +1,110 @@
+# Registered Dynamic Capabilities & Tools
+contract_type: tools_registry
+compiled_at: "2026-05-27T11:01:07.553Z"
+
+tools:
+  - id: whatsapp_api
+    name: whatsapp_api
+    description: WhatsApp messaging API
+    apiEndpoint: "https://api.internal/whatsapp"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 100
+  - id: email_service
+    name: email_service
+    description: Email delivery service
+    apiEndpoint: "https://api.internal/email"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 100
+  - id: notification_router
+    name: notification_router
+    description: Routes notifications
+    apiEndpoint: "https://api.internal/notif"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 50
+  - id: aa_provider
+    name: aa_provider
+    description: Account Aggregator framework
+    apiEndpoint: "https://api.internal/aa"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 400
+  - id: transaction_engine
+    name: transaction_engine
+    description: Transaction processing engine
+    apiEndpoint: "https://api.internal/tx"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 100
+  - id: spend_ai
+    name: spend_ai
+    description: AI engine for spending analysis
+    apiEndpoint: "https://api.internal/spendai"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 300
+  - id: recommendation_engine
+    name: recommendation_engine
+    description: Recommendation engine
+    apiEndpoint: "https://api.internal/recs"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 150
+  - id: risk_engine
+    name: risk_engine
+    description: Risk and compliance engine
+    apiEndpoint: "https://api.internal/risk"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 100
+  - id: budgeting_engine
+    name: budgeting_engine
+    description: Budget calculation engine
+    apiEndpoint: "https://api.internal/budget"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 50
+  - id: onboarding_orchestrator
+    name: onboarding_orchestrator
+    description: Onboarding workflow engine
+    apiEndpoint: "https://api.internal/onboarding"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 100
+  - id: coaching_agent
+    name: coaching_agent
+    description: Agentic coaching system
+    apiEndpoint: "https://api.internal/coach"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 300
+  - id: calculator_engine
+    name: calculator_engine
+    description: Utility calculations
+    apiEndpoint: "https://api.internal/calc"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 50
+  - id: simulation_engine
+    name: simulation_engine
+    description: Financial simulator
+    apiEndpoint: "https://api.internal/sim"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 150
+  - id: memory_store
+    name: memory_store
+    description: User context memory
+    apiEndpoint: "https://api.internal/mem"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 50
+  - id: behavioral_signal_engine
+    name: behavioral_signal_engine
+    description: Behavioral signal tracker
+    apiEndpoint: "https://api.internal/beh"
+    inputSchema: {}
+    outputSchema: {}
+    latencyBenchmarkMs: 200

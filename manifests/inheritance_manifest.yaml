@@ -1,0 +1,13 @@
+# Deterministic Stack Precedence Manifest
+# Resolved sequentially. Product Domain establishes the sandbox boundaries first, followed by baseline defaults, overlays, and capped finally by Governance.
+inheritance_stack:
+  - product_domain_orchestration
+  - global_defaults
+  - demographic_segments
+  - regional_segments
+  - behavioral_segments
+  - lifecycle_segments
+  - relationship_modes
+  - contextual_modes
+  - intent_modes
+  - safety_governance_caps

@@ -1,0 +1,58 @@
+# Dynamic Targeting & Behavioral Modifiers
+contract_type: segment_overlays
+compiled_at: "2026-05-27T13:08:52.859Z"
+
+segments:
+  - id: style_supportive
+    name: "Style: Supportive Preset"
+    category: style
+    rules:
+      - field: preferredLanguage
+        operator: equals
+        value: english
+    modifiers:
+      warmth: 0.22
+      humor: -0.12
+      seriousness: -0.1
+  - id: style_analytical
+    name: "Style: Analytical Preset"
+    category: style
+    rules:
+      - field: upiUsage
+        operator: equals
+        value: low
+    modifiers:
+      seriousness: 0.35
+      humor: -0.22
+      warmth: -0.15
+  - id: bangalore_urban
+    name: "Regional: Bangalore Urban"
+    category: regional
+    rules:
+      - field: location
+        operator: equals
+        value: Bangalore
+    modifiers:
+      cultural_localization: 0.2
+      slang_density: 0.1
+  - id: india_genz
+    name: "Demographic: India Gen Z"
+    category: demographic
+    rules:
+      - field: age
+        operator: less_than
+        value: 28
+    modifiers:
+      relatability: 0.2
+      authenticity: 0.15
+      companionness: 0.1
+  - id: mode_financial_anxiety
+    name: "Mode: Financial Anxiety Trigger"
+    category: contextual
+    rules:
+      - field: anxietyLevel
+        operator: equals
+        value: high
+    modifiers:
+      pacing: -0.2
+      clarity: 0.15

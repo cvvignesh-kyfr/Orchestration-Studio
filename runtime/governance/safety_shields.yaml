@@ -1,0 +1,37 @@
+# Situational Safety Limits
+contract_type: safety_shields
+compiled_at: "2026-05-27T13:08:52.859Z"
+
+shields:
+  - id: gov_anxiety_warmth
+    name: Anxiety Warmth Cap
+    targetPrimitiveId: warmth
+    limitType: cap
+    thresholdValue: 0.9
+    condition: anxietyLevel == high
+    category: emotional_harm
+    description: Forces warmth clamp on high anxiety users to prevent patronizing overlay states.
+  - id: gov_advice_assertive
+    name: Advice Directness/Assertive Cap
+    targetPrimitiveId: assertiveness
+    limitType: cap
+    thresholdValue: 0.54
+    condition: upiUsage == heavy
+    category: financial_safety
+    description: Clamps aggressive directive guidance when recommending financial or transaction operations.
+  - id: gov_humor_sensitive
+    name: Humor Clamp in Crisis
+    targetPrimitiveId: humor
+    limitType: cap
+    thresholdValue: 0.22
+    condition: anxietyLevel == high
+    category: cultural_safety
+    description: Strictly forbids levity during user recovery stress scenarios.
+  - id: gov_absolute_checkins
+    name: "Absolute Follow-through Cap"
+    targetPrimitiveId: accountability_pressure
+    limitType: cap
+    thresholdValue: 0.62
+    condition: always
+    category: behavioral_manipulation
+    description: "Universal compliance threshold limiting the maximum persistent follow-through pressure applied to users."

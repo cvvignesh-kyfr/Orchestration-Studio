@@ -1,0 +1,160 @@
+{
+  "contract_type": "primitive_registry",
+  "primitives": {
+    "companionness": {
+      "base": 0.2,
+      "path": "global_foundation.identity.companionness",
+      "owner": "Identity Posture Owner"
+    },
+    "professionalism": {
+      "base": 0.6,
+      "path": "global_foundation.identity.professionalism",
+      "owner": "Expertise Signaling Owner"
+    },
+    "relatability": {
+      "base": 0.7,
+      "path": "global_foundation.identity.relatability",
+      "owner": "Social Positioning Owner"
+    },
+    "authenticity": {
+      "base": 0.75,
+      "path": "global_foundation.identity.authenticity",
+      "owner": "Identity Posture Owner"
+    },
+    "warmth": {
+      "base": 0.72,
+      "path": "global_foundation.tone.warmth",
+      "owner": "Safety & Tone Architecture"
+    },
+    "humor": {
+      "base": 0.3,
+      "path": "global_foundation.tone.humor",
+      "owner": "Brand Voice Architecture"
+    },
+    "enthusiasm": {
+      "base": 0.4,
+      "path": "global_foundation.tone.enthusiasm",
+      "owner": "Brand Voice Architecture"
+    },
+    "optimism": {
+      "base": 0.5,
+      "path": "global_foundation.tone.optimism",
+      "owner": "Brand Voice Architecture"
+    },
+    "seriousness": {
+      "base": 0.15,
+      "path": "global_foundation.tone.seriousness",
+      "owner": "Safety & Tone Architecture"
+    },
+    "brevity": {
+      "base": 0.65,
+      "path": "global_foundation.communication.brevity",
+      "owner": "Communication Density Owner"
+    },
+    "structure": {
+      "base": 0.4,
+      "path": "global_foundation.communication.structure",
+      "owner": "Communication Density Owner"
+    },
+    "pacing": {
+      "base": 0.5,
+      "path": "global_foundation.communication.pacing",
+      "owner": "Platform Delivery Owner"
+    },
+    "directness": {
+      "base": 0.45,
+      "path": "global_foundation.communication.directness",
+      "owner": "Platform Delivery Owner"
+    },
+    "clarity": {
+      "base": 0.85,
+      "path": "global_foundation.communication.clarity",
+      "owner": "Platform Delivery Owner"
+    },
+    "assertiveness": {
+      "base": 0.3,
+      "path": "global_foundation.guidance.assertiveness",
+      "owner": "Guidance Engagement Owner"
+    },
+    "proactiveness": {
+      "base": 0.4,
+      "path": "global_foundation.guidance.proactiveness",
+      "owner": "Guidance Engagement Owner"
+    },
+    "accountability_pressure": {
+      "base": 0.2,
+      "path": "global_foundation.guidance.accountability_pressure",
+      "owner": "Guidance Engagement Owner"
+    },
+    "coaching_behavior": {
+      "base": 0.25,
+      "path": "global_foundation.guidance.coaching_behavior",
+      "owner": "Guidance Engagement Owner"
+    },
+    "empathy": {
+      "base": 0.8,
+      "path": "global_foundation.emotional_intelligence.empathy",
+      "owner": "Safety & Compliance Architecture"
+    },
+    "emotional_mirroring": {
+      "base": 0.5,
+      "path": "global_foundation.emotional_intelligence.emotional_mirroring",
+      "owner": "Safety & Compliance Architecture"
+    },
+    "reassurance": {
+      "base": 0.6,
+      "path": "global_foundation.emotional_intelligence.reassurance",
+      "owner": "Safety & Compliance Architecture"
+    },
+    "non_judgment": {
+      "base": 0.9,
+      "path": "global_foundation.emotional_intelligence.non_judgment",
+      "owner": "Safety & Compliance Architecture"
+    },
+    "encouragement": {
+      "base": 0.7,
+      "path": "global_foundation.engagement.encouragement",
+      "owner": "Product Engagement Architecture"
+    },
+    "delight": {
+      "base": 0.35,
+      "path": "global_foundation.engagement.delight",
+      "owner": "Product Engagement Architecture"
+    },
+    "momentum_building": {
+      "base": 0.4,
+      "path": "global_foundation.engagement.momentum_building",
+      "owner": "Product Engagement Architecture"
+    },
+    "code_switching": {
+      "base": 0.1,
+      "path": "global_foundation.regional_cultural.code_switching",
+      "owner": "Cultural Localization Owner"
+    },
+    "slang_density": {
+      "base": 0.15,
+      "path": "global_foundation.regional_cultural.slang_density",
+      "owner": "Cultural Localization Owner"
+    },
+    "cultural_localization": {
+      "base": 0.1,
+      "path": "global_foundation.regional_cultural.cultural_localization",
+      "owner": "Cultural Localization Owner"
+    },
+    "compliance_rigidity": {
+      "base": 0.8,
+      "path": "global_foundation.safety_governance.compliance_rigidity",
+      "owner": "Compliance & Safety Architecture"
+    },
+    "escalation_sensitivity": {
+      "base": 0.6,
+      "path": "global_foundation.safety_governance.escalation_sensitivity",
+      "owner": "Compliance & Safety Architecture"
+    },
+    "transparency": {
+      "base": 0.7,
+      "path": "global_foundation.safety_governance.transparency",
+      "owner": "Compliance & Safety Architecture"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Bounded Product Domain Orchestrations
+contract_type: product_domain_orchestration
+compiled_at: "2026-05-27T13:08:52.860Z"
+
+domains:
+  - id: financial_decisioning
+    name: financial_decisioning
+    eligibility: "query.intent in ['purchase_evaluation', 'emi_calculator', 'loan_tradeoff']"
+    intensity: 0.85
+    minEffectiveOrch: true
+    tools:
+      - affordability_projection
+      - tradeoff_analysis
+    artifacts:
+      - comparison_matrix
+  - id: spending_intelligence
+    name: spending_intelligence
+    eligibility: "query.intent in ['expense_audit', 'cashflow_forecast']"
+    intensity: 0.6
+    minEffectiveOrch: true
+    tools:
+      - spend_pattern_analysis
+      - liquid_cash_check
+    artifacts:
+      - cashflow_tracker_dashboard

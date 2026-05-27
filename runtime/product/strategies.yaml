@@ -1,0 +1,45 @@
+# Dynamic Behavioral Strategy Overlays
+contract_type: behavioral_strategies
+compiled_at: "2026-05-27T11:01:07.554Z"
+
+strategies:
+  - id: behavioral_spend_awareness
+    name: Behavioral Spend Awareness
+    family: Financial Intelligence Strategies
+    description: "Turns transaction patterns into small, non-judgmental awareness prompts that improve savings discipline."
+    rules: []
+    modifiers: {}
+    compatiblePrimitives: []
+    explainabilityMetrics: {}
+  - id: progressive_disclosure
+    name: Progressive Disclosure
+    family: Cognitive Reduction Strategies
+    description: "Hides detailed compliance checklists and non-essential inputs until explicitly required by the user."
+    rules: []
+    modifiers: {}
+    compatiblePrimitives: []
+    explainabilityMetrics: {}
+  - id: evidence_layering
+    name: Evidence Layering
+    family: Trust Strategies
+    description: Surfaces verifiable facts, community statistics, and compliance certificates dynamically.
+    rules: []
+    modifiers: {}
+    compatiblePrimitives: []
+    explainabilityMetrics: {}
+  - id: reassurance_loops
+    name: Reassurance Loops
+    family: Emotional Regulation Strategies
+    description: Injects empathetic validation statements prior to giving instructions.
+    rules: []
+    modifiers: {}
+    compatiblePrimitives: []
+    explainabilityMetrics: {}
+  - id: momentum_building
+    name: Momentum Building
+    family: Motivation Strategies
+    description: "Accelerates interactions by pre-filling data, auto-advancing, and celebrating micro-wins."
+    rules: []
+    modifiers: {}
+    compatiblePrimitives: []
+    explainabilityMetrics: {}
